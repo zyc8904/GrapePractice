@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title>九宫格</title>
+		<link rel="stylesheet" type="text/css" href="css/bootstrap.css"/>
+		<link rel="stylesheet" type="text/css" href="css/Custom.css"/>
+		<script src="js/jquery-2.1.1.js" type="text/javascript" charset="utf-8"></script>
+		<script type="text/javascript">
+			var bodyBgs = [];
+			bodyBgs[0] = "img/SpeedDialSingle1.jpg";
+			bodyBgs[1] = "img/SpeedDialSingle2.jpg";
+			bodyBgs[2] = "img/SpeedDialSingle3.jpg";
+			var randomBgIndex = Math.round(Math.random()*2);
+			document.getElementById("Time2").style.backgroundImage=('+bodyBgs[randomBgIndex]+');
+		</script>
+	</head>
+	<body>
+		<div class="container">
+			<div class="row">
+				<div class="col-md-2"><h2 class="text-right">变换莫测</h2></div>
+				<div class="col-md-8"><h2 class="text-center">九宫格<mark>SpeedDial</mark></h2></div>
+				<div class="col-md-2"><h2 class="text-left">神秘古老</h2></div>
+			</div>
+			<hr />
+			<div class="NineBlockBox">
+			<!--
+            	作者：13971099040@163.com
+            	时间：2016-05-07
+            	描述：九宫格初始颜色：黄
+            -->
+			<img class="img-responsive img-left clearfix pow"  src="img/SpeedDialSingle.jpg" alt="SpeedDial"/>
+			<img class="img-responsive img-left clearfix pow"  src="img/SpeedDialSingle.jpg" alt="SpeedDial"/>
+			<img class="img-responsive img-left clearfix pow" id="Time2" src="img/SpeedDialSingle.jpg" alt="SpeedDial"/>
+			<img class="img-responsive img-left clearfix pow" src="img/SpeedDialSingle.jpg" alt="SpeedDial"/>
+			<img class="img-responsive img-left clearfix pow" src="img/SpeedDialSingle.jpg" alt="SpeedDial"/>
+			<img class="img-responsive img-left clearfix pow" src="img/SpeedDialSingle.jpg" alt="SpeedDial"/>
+			<img class="img-responsive img-left clearfix pow" src="img/SpeedDialSingle.jpg" alt="SpeedDial"/>
+			<img class="img-responsive img-left clearfix pow" src="img/SpeedDialSingle.jpg" alt="SpeedDial"/>
+			<img class="img-responsive img-left clearfix pow" src="img/SpeedDialSingle.jpg" alt="SpeedDial"/>
+			
+		</div>
+	</body>
+</html>
